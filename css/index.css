@@ -28,6 +28,22 @@ article, aside, details, figcaption, figure,
 footer, header, hgroup, menu, nav, section {
 	display: block;
 }
+header {
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
+header a {
+    margin: 35px;
+    
+}
+.jumbo {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    padding: 5%;
+}
 body {
 	line-height: 1;
 }
@@ -143,4 +159,60 @@ footer nav {
 footer nav a {
     color: white;
     text-decoration: none;
+}
+
+/* CSS Styling for about page */
+.learn {
+    display: inline;
+    border: 2px solid black;
+    padding: 3%;
+    border-radius: 10%;
+    margin:5% 0% 5% 0%;
+}
+
+.container .about-page {
+    width: 800px;
+    margin: 0 auto;
+}
+
+.middle-content .about-page {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    margin-bottom: 20px;
+    border-bottom: 1px dashed black;
+    border: 10px solid red;
+}
+
+.middle-content .text-container .about-page {
+    width: 48%;
+    padding: 0 1%;
+    padding-bottom: 20px;  
+}
+
+.bottom-content .about-page {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    margin-bottom: 20px;
+    border-bottom: 1px dashed black;
+}
+
+.bottom-content .text-container .about-page {
+    width: 48%;
+    padding: 0 1%;
+    padding-bottom: 20px;  
+}
+
+.middle-content .about-page h2 {
+    margin-right: auto;
+
+}
+.bottom-content .about-page h2 {
+    margin-right: auto;
+}
+
+.top-content h2 {
+    margin-right: auto;
+    
 }
